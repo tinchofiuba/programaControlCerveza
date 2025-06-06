@@ -900,11 +900,7 @@ def mostrar():
                 arduino.write(str(vector).encode())
             else:
                 
-                label_transimicion_serial.config(fg="red")
-            
-                
-            
-                
+                label_transimicion_serial.config(fg="red")      
                 
     else:
         #anulado de botones 
